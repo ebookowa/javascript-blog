@@ -96,6 +96,10 @@ body {
 .authors {
   li {
     margin-bottom: 12px;
+    font-size: 30px;
+    a {
+      color: rgb(51, 153, 65);
+    }
   }
 }
 
@@ -125,7 +129,7 @@ a {
 
 .tag-size-1 {
   font-size: 20px;
-  color: blueviolet;
+  color: magenta;
   font-weight: 500;
 }
 
@@ -143,7 +147,7 @@ a {
 
 .tag-size-4 {
   font-size: 45px;
-  color: yellow;
+  color: darkorange;
   font-weight: 100;
 }
 
