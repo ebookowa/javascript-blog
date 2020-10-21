@@ -214,16 +214,13 @@
         }
 
         /* [NEW] create variable for all links HTML code */
-        const allTagsData = {tags: [] };
+        const allTagsData = { tags: [] };
 
         /* [NEW] START LOOP: for each tag in allTags: */
         for (let tag in allTags) {
             /* [NEW] generate code of a link and add it to allTagsHTML */
 
             const tagLinkHTML = '<li><a class ="' + calculateTagClass(allTags[tag], tagsParams) + '"href="' + tag + '">' + tag + '</a></li>';
-
-            //         const tagLinkHTML = '<li>' + calculateTagClass(allTags[tag], tagsParam) + '</li>';
-            //         console.log('tagLinkHTML:', tagLinkHTML);
 
             allTagsData.tags.push({
                 tag: tag,
@@ -333,17 +330,15 @@
 
         }
 
-        let allAuthorsData = {authors: [] };
+        let allAuthorsData = { authors: [] };
 
         let authorList = document.querySelector('.list.authors');
 
         for (let author in allAuthors) {
 
-         //   const authorLinkHTML = '<li><a ' + 'href="' + authorName + '">' + authorName + '  (' + allAuthors[authorName] + ')</a></li>';
-
             allAuthorsData.authors.push({
                 author: author
-              });
+            });
 
         }
         /* [NEW] END LOOP: for each tag in allTags: */
