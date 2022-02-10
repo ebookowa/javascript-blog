@@ -28,7 +28,7 @@
     "browser-sync": "^2.26.10",
     "eslint": "^7.5.0",
     "mkdirp": "^1.0.4",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "npm-run-all": "^4.1.5",
     "onchange": "^7.0.2"
   }
